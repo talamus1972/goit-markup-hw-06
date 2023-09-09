@@ -87,6 +87,48 @@ textarea {
     padding: 0;
 }
 
+/* Viuport 320px */
+@media (max-width: 320px) {
+
+
+    .container-feature {
+
+        flex-direction: column;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .icons {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .container-feature {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .li-feature {
+        flex-basis: calc((100% - 24px) / 2);
+
+    }
+
+    .icons {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
 /* Header */
 
 .page-header {
