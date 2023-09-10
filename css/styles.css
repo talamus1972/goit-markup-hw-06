@@ -973,7 +973,9 @@ input:focus+.checkbox-text>.icon-checkbox {
     margin-bottom: 48px;
 }
 
-
+.link-social {
+    justify-content: left;
+}
 
 
 
@@ -1096,7 +1098,7 @@ input:focus+.checkbox-text>.icon-checkbox {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
     /* -------------------Header----------------- */
 
     .address-list {
