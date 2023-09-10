@@ -249,7 +249,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
+
 }
 
 /* section 1 */
@@ -1004,6 +1004,7 @@ input:focus+.checkbox-text>.icon-checkbox {
     .label-div {
         margin-left: 0;
         text-align: center;
+        margin-top: 72px;
     }
 
     .footer-form {
