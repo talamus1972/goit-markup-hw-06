@@ -977,7 +977,7 @@ input:focus+.checkbox-text>.icon-checkbox {
     margin-bottom: 48px;
 }
 
-.link-social {
+.menu-link-social {
     justify-content: left;
 }
 
@@ -1049,10 +1049,11 @@ input:focus+.checkbox-text>.icon-checkbox {
     .container-portfolio-ul {
         flex-direction: column;
         row-gap: 48px;
+        align-items: center;
     }
 
     .port-li {
-        width: 100%;
+        width: 360px;
     }
 
     /* ---------------footer--------- */
@@ -1112,7 +1113,7 @@ input:focus+.checkbox-text>.icon-checkbox {
 }
 
 
-
+/* -----------------768------------- */
 
 @media (min-width: 768px) and (max-width: 1157px) {
     /* -------------------Header----------------- */
@@ -1160,11 +1161,13 @@ input:focus+.checkbox-text>.icon-checkbox {
         row-gap: 72px;
         column-gap: 24px;
         justify-content: center;
+        align-items: center;
     }
 
     .port-li {
         width: calc((100% - 24px) / 2);
     }
+
 
     /* ----------------Footer------------------------- */
 
