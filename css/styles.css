@@ -1100,7 +1100,19 @@ input:focus+.checkbox-text>.icon-checkbox {
         margin: 0 auto;
         margin-top: 16px;
     }
+
+    /* ---------------------Modal-------------  */
+
+    .form-hidden {
+        width: 288px;
+        min-height: 623px;
+
+    }
+
 }
+
+
+
 
 @media (min-width: 768px) and (max-width: 1157px) {
     /* -------------------Header----------------- */
