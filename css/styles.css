@@ -878,10 +878,8 @@ input:focus+.checkbox-text>.icon-checkbox {
     margin: 0 auto;
 }
 
-/* Viuport 320px */
-/* @media (min-width: 320px) {
-
-
+/* --------------------Viewport 320px------------------------ */
+@media (min-width: 320px) and (max-width: 767px) {
     .container-feature {
 
         flex-direction: column;
@@ -892,9 +890,9 @@ input:focus+.checkbox-text>.icon-checkbox {
     .icons {
         display: none;
     }
-} */
+}
 
-@media (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1158px) {
     /* -------------------Header----------------- */
 
     .address-list {
@@ -955,3 +953,5 @@ input:focus+.checkbox-text>.icon-checkbox {
     .port-li {
         width: calc((100% - 24px) / 2);
     }
+
+}
