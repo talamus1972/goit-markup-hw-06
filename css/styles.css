@@ -1116,7 +1116,7 @@ input:focus+.checkbox-text>.icon-checkbox {
 
 /* -----------------768------------- */
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 767px) and (max-width: 1157px) {
     /* -------------------Header----------------- */
 
     .address-list {
