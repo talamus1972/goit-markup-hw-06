@@ -1134,9 +1134,6 @@ input:focus+.checkbox-text>.icon-checkbox {
         justify-content: center;
     }
 
-    .team-li {
-        width: calc((100% - 24px) / 2);
-    }
 
     /* -------------------------4 section------------- */
     .container-portfolio-ul {
