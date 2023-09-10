@@ -232,6 +232,7 @@ body {
     color: #2e2f42;
 }
 
+
 .title-three {
     color: #2E2F42;
     font-size: 20px;
@@ -241,6 +242,7 @@ body {
     margin-bottom: 8px;
 
 }
+
 
 .title-par {
     font-size: 16px;
@@ -317,6 +319,8 @@ body {
 
 }
 
+
+
 .icons {
     background-color: #F4F4FD;
     border-radius: 4px;
@@ -326,6 +330,23 @@ body {
     justify-content: center;
     display: flex;
     margin-bottom: 8px;
+}
+
+.title-three-feature {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.title-par-feature {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
 }
 
 /* Section 3 */
@@ -880,26 +901,135 @@ input:focus+.checkbox-text>.icon-checkbox {
 
 /* --------------------Viewport 320px------------------------ */
 @media (min-width: 320px) and (max-width: 767px) {
+
+    /* ------------Header--------------------- */
+
+    .address-list {
+        display: none;
+    }
+
+    .link-all {
+        display: none;
+    }
+
+    .container-header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    /* --------------------------------------- */
+    /* --------------2 section---------------- */
     .container-feature {
 
         flex-direction: column;
-        align-items: center;
-        gap: 72px;
+        row-gap: 72px;
     }
 
     .icons {
         display: none;
     }
+
+    .title-three-feature {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .title-par-feature {
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .li-feature {
+        width: 100%;
+    }
+
+    /* ------------------------------------------- */
+    /* -----------------3 section------------------ */
+    .container-team-ul {
+        flex-direction: column;
+        column-gap: 72px;
+
+    }
+
+    .team-li {
+        width: 100%;
+    }
+
+
+
+
+
+    /* --------------------------------------------- */
+    /* -------------------4 section---------------- */
+
+    .container-portfolio-ul {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .port-li {
+        width: 100%;
+    }
+
+    /* ---------------footer--------- */
+
+    .container-footer {
+        flex-direction: column;
+        display: block;
+
+
+    }
+
+    .fofo {
+        margin-right: 0;
+    }
+
+    .footer-p {
+        width: 100%;
+    }
+
+    .webstudio-down {
+        text-align: center;
+    }
+
+    .footer-social {
+        display: block;
+        text-align: center;
+    }
+
+    .label-div {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-form {
+        display: block;
+
+    }
+
+    .footer-input {
+        width: 100%;
+    }
+
+    .button-footer {
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+
+
 }
 
 @media (min-width: 768px) and (max-width: 1158px) {
     /* -------------------Header----------------- */
 
     .address-list {
-        display: flex;
+
         flex-direction: column;
         row-gap: 12px;
-
         padding: 16px;
     }
 
@@ -907,7 +1037,6 @@ input:focus+.checkbox-text>.icon-checkbox {
     .container-feature {
         display: flex;
         flex-wrap: wrap;
-
         row-gap: 72 px;
         column-gap: 24px;
         justify-content: center;
@@ -927,7 +1056,6 @@ input:focus+.checkbox-text>.icon-checkbox {
     /* ------------------3 section---------- */
 
     .container-team-ul {
-        display: flex;
         flex-wrap: wrap;
         row-gap: 64px;
         column-gap: 24px;
@@ -936,7 +1064,7 @@ input:focus+.checkbox-text>.icon-checkbox {
 
     .team-li {
         width: calc((100% - 24px) / 2);
-        width: 356px;
+
 
 
     }
@@ -954,4 +1082,22 @@ input:focus+.checkbox-text>.icon-checkbox {
         width: calc((100% - 24px) / 2);
     }
 
+    /* ----------------Footer------------------------- */
+
+    .container-footer {
+        flex-wrap: wrap;
+        padding-left: 93px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .fofo {
+        margin-right: 0;
+    }
+
+    .label-div {
+        margin-left: 0;
+    }
+
+    .
 }
