@@ -227,6 +227,16 @@ body {
     margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
 .title-two {
     text-align: center;
     line-height: 1.11;
@@ -246,6 +256,13 @@ body {
     margin-bottom: 8px;
 
 }
+
+
+
+
+
+
+
 
 
 .title-par {
@@ -276,7 +293,7 @@ body {
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image: url(../images-2x/people-office-2x.jpg);
+        background-image: url(./images-2x/people-office-2x.jpg);
     }
 }
 
@@ -1007,7 +1024,15 @@ input:focus+.checkbox-text>.icon-checkbox {
     }
 
 
-    /* --------------------------------------- */
+    /* --------------Hero------------------------- */
+    .title-one {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.11;
+    }
+
+
+
     /* --------------2 section---------------- */
     .container-feature {
 
@@ -1147,6 +1172,12 @@ input:focus+.checkbox-text>.icon-checkbox {
 
     .icons {
         display: none;
+    }
+
+    .title-three-feature {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
     }
 
     /* ------------------3 section---------- */
