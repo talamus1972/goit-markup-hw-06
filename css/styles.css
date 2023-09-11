@@ -271,9 +271,13 @@ body {
         url(../images/people-office.jpg);
     max-width: 1440px;
     margin: 0 auto;
+}
 
 
-
+@media (min-resolution: 192dpi) {
+    .hero {
+        background-image: url(../images-2x/people-office-2x.jpg);
+    }
 }
 
 .button {
