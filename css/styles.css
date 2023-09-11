@@ -198,8 +198,9 @@ textarea {
     color: #404BBF;
 }
 
-.footer-icon-menu {
-    margin-left: auto;
+.footer-icon-menu-div {
+    display: none;
+
 }
 
 /* Body */
@@ -227,16 +228,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
 .title-two {
     text-align: center;
     line-height: 1.11;
@@ -256,14 +247,6 @@ body {
     margin-bottom: 8px;
 
 }
-
-
-
-
-
-
-
-
 
 .title-par {
     font-size: 16px;
@@ -1154,6 +1137,12 @@ input:focus+.checkbox-text>.icon-checkbox {
         row-gap: 12px;
         padding: 16px;
     }
+
+    .footer-icon-menu-div {
+        display: none;
+
+    }
+
 
     /* -------------2 section---------------- */
     .container-feature {
