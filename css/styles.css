@@ -166,6 +166,7 @@ textarea {
 .address-list .link {
     font-weight: 400;
     color: #434455;
+    font-style: normal;
     text-decoration: none;
     /* animation */
     transition-property: color;
