@@ -32,11 +32,11 @@
     }
 
 
-    /* @media (min-resolution: 192dpi) {
+    @media (min-resolution: 192dpi) {
         .hero {
             background-image: url(../images-2x/people-office-2x.jpg);
         }
-    } */
+    }
 
     .title-one {
 

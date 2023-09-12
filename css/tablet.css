@@ -19,6 +19,11 @@
         margin-top: 36px;
     }
 
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tablet.jpg);
+    }
+
     /* =============-2 section-================== */
     .section-feature {
 
