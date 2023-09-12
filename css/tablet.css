@@ -1,4 +1,7 @@
 @media screen and (min-width: 768px) {
+
+    /* ==============================HERO============================ */
+
     .address-list {
 
         flex-direction: column;
@@ -6,9 +9,8 @@
         padding: 16px;
     }
 
-    .footer-icon-menu-div {
+    .header-icon-menu {
         display: none;
-
     }
 
     /* ====================HERO====================================== */
@@ -17,7 +19,7 @@
         margin-top: 36px;
     }
 
-    /* -------------2 section---------------- */
+    /* =============-2 section-================== */
     .section-feature {
 
         padding-top: 96px;
