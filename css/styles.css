@@ -191,8 +191,6 @@ textarea {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .address-list .link:hover,
@@ -200,17 +198,7 @@ textarea {
     color: #404BBF;
 }
 
-.header-icon-menu-button {
-    margin-left: auto;
-    display: block;
-
-}
-
-.header-icon-menu-button {
-    background-color: transparent;
-}
-
-/* Body */
+/* ==========================Body============================== */
 
 body {
     color: #434455;
@@ -813,7 +801,6 @@ input::placeholder {
     fill: #4D5AE5;
 }
 
-
 .form-group-textarea {
     margin-bottom: 16px;
 }
@@ -841,7 +828,6 @@ input::placeholder {
 
 .textarea:focus {
     border-color: #4D5AE5;
-
 }
 
 .checkbox {
@@ -869,7 +855,6 @@ input::placeholder {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
-
 }
 
 input:checked+.checkbox-text>.icon-checkbox {
@@ -885,10 +870,7 @@ input:focus+.checkbox-text>.icon-checkbox {
 .privacy-policy {
     color: #4D5AE5;
     text-decoration: underline;
-
 }
-
-
 
 .form-button {
     display: block;
@@ -906,88 +888,4 @@ input:focus+.checkbox-text>.icon-checkbox {
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
-}
-
-/* ====================--Menu mobile--=================== */
-.backdrop-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999999999;
-    width: 100%;
-    height: 100%;
-}
-
-.menu-mobile {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    width: 100%;
-    height: 100%;
-    padding: 0 16px;
-    background-color: #FFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    padding: 72px 24px 24px 24px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-nav {
-    margin-bottom: auto;
-}
-
-.menu-link-studio {
-    color: #404BBF;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-
-
-}
-
-.menu-link {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-}
-
-.menu-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-}
-
-.menu-link-mail {
-    color: #4D5AE5;
-    font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.menu-link-tel {
-    color: #434455;
-    font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.menu-address-list {
-    margin-bottom: 48px;
-}
-
-.menu-link-social {
-    justify-content: left;
 }
