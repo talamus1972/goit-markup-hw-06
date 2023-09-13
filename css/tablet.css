@@ -6,7 +6,13 @@
 
         flex-direction: column;
         row-gap: 12px;
-        padding: 16px;
+
+    }
+
+    .address-list .link {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
     }
 
     .header-icon-menu-button {
@@ -35,7 +41,7 @@
     .container-feature {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 72 px;
+        row-gap: 72px;
         column-gap: 24px;
         justify-content: center;
 
