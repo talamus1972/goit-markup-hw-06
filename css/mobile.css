@@ -52,6 +52,8 @@
 
         font-size: 36px;
         line-height: 1.11;
+        width: 288px;
+        height: 160px;
 
     }
 
@@ -278,7 +280,12 @@
 
     .menu-toggle {
         background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-left: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
 
 

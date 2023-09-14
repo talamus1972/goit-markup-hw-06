@@ -11,5 +11,7 @@
         display: none;
     }
 
-
+    .menu-container {
+        display: none;
+    }
 }

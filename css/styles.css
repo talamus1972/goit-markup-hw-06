@@ -448,6 +448,7 @@ body {
 .container-portfolio-ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
     margin-top: 72px;
