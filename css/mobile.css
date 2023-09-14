@@ -6,7 +6,7 @@
     /* ================HEADER================================ */
 
 
-    .container-header {
+    .klontainer-header {
         padding-top: 17px;
         padding-bottom: 17px;
     }
@@ -19,6 +19,13 @@
         display: none;
     }
 
+    .webstudio {
+        margin: 0;
+    }
+
+    .header {
+        margin: 0;
+    }
 
     /* ============================HERO======================= */
 
@@ -270,20 +277,10 @@
     /* =============Menu jc ============================*/
 
     .menu-toggle {
-        min-height: 40px;
-        min-width: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        margin: 0;
-        padding: 0;
         background-color: transparent;
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        outline: none;
+        margin-left: auto;
     }
+
 
     /* @media (min-width: 768px) {
         .menu-toggle {
@@ -291,10 +288,6 @@
         }
     } */
 
-    .menu-toggle:hover,
-    .menu-toggle:focus {
-        background-color: rgba(0, 0, 0, 0.1);
-    }
 
     .menu-container.is-open {
         transform: translateX(0);
