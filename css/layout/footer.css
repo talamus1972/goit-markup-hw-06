@@ -198,13 +198,14 @@ input::placeholder {
 
 @media screen and (min-width: 1158px) {
     .page-footer {
-
         padding: 100px 0;
     }
 
     .container-footer {
         display: flex;
+        flex-wrap: nowrap;
         align-items: baseline;
+        column-gap: 0;
     }
 
     .fofo {
