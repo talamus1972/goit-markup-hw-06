@@ -46,8 +46,8 @@
 
 
     .container-feature {
-        display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         row-gap: 72px;
         column-gap: 24px;
         justify-content: center;
@@ -75,11 +75,6 @@
 
         padding-top: 120px;
         padding-bottom: 120px;
-    }
-
-    .container-feature {
-        display: flex;
-        gap: 24px;
     }
 
     .li-feature {

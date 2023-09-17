@@ -109,7 +109,7 @@
     }
 
     .container-team-ul {
-
+        flex-direction: row;
         gap: 24px;
     }
 
