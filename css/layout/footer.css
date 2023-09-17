@@ -2,18 +2,16 @@
     background-color: #2E2F42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .container-footer {
-    display: block;
+    display: flex;
     flex-direction: column;
+    row-gap: 72px;
 }
 
-.fofo {
-    margin-right: 0;
-    margin-bottom: 72px;
-}
+.fofo {}
 
 .webstudio-down {
     font-family: "Raleway", sans-serif;
@@ -25,7 +23,7 @@
     text-transform: uppercase;
     color: #4d5ae5;
     display: block;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
     text-align: center;
 }
 
@@ -96,15 +94,15 @@
 /* 3 block */
 
 .label-div {
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 72px;
+    row-gap: 16px;
+
 }
 
 
 .footer-subscribe {
-    display: block;
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -113,12 +111,13 @@
 }
 
 .footer-form {
-    display: flex;
+
     gap: 24px;
 }
 
 .footer-input {
     width: 100%;
+    height: 40px;
     border: 1px solid #FFF;
     background-color: transparent;
     font-size: 12px;
