@@ -12,8 +12,8 @@
 
 @import "./layout/body.css";
 @import "./layout/header.css";
-@import "./layout/retina.css";
 @import "./layout/hero.css";
+@import "./layout/retina.css";
 @import "./layout/feature.css";
 @import "./layout/team.css";
 @import "./layout/portfolio.css";
